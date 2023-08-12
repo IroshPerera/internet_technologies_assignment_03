@@ -1,0 +1,138 @@
+body{
+overflow: hidden;
+}
+section > .main {
+    width: 50vw;
+    height: 50vh;
+    position: absolute;
+}
+
+section > .main:first-child {
+    background: red;
+
+}
+
+section > .main:nth-child(2) {
+    background: green;
+    position: absolute;
+    right: 0;
+}
+
+section > .main:nth-child(3) {
+
+    background: deeppink;
+    position: absolute;
+    right: 0;
+    bottom: 0;
+}
+
+section > .main:nth-child(4) {
+    background: orange;
+    position: absolute;
+    bottom: 0;
+}
+
+section > .main>div{
+    width: 20vw;
+    height: 20vw;
+    background-color: white;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    margin: auto;
+    border-radius: 100%;
+}
+
+section > .main>div>div{
+    width: 8vw;
+    height: 8vw;
+    background: red;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    margin: auto;
+
+}
+
+#mid_box{
+    width: 15vw;
+    height: 15vw;
+    background: white;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    margin: auto;
+}
+#mid_box>div{
+    width: 8vw;
+    height: 8vw;
+    background: red;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    margin: auto;
+    border-radius: 100%;
+}
+
+.corner_circle{
+    width: 8vw;
+    height: 8vw;
+    background: white;
+
+}
+.mid_circle{
+    width: 16vw;
+    height: 16vw;
+    background: white;
+    border-radius: 100%;
+}
+
+.corner_circle#circle_01{
+    position: absolute;
+    border-radius: 0%  0% 100% 0%;
+}
+.corner_circle#circle_02{
+    position: absolute;
+    right: 0;
+    border-radius: 0%   0%  0% 100%;
+}
+.corner_circle#circle_03{
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    border-radius:100%  0%  0%  0% ;
+}
+.corner_circle#circle_04{
+    position: absolute;
+    bottom: 0;
+    border-radius: 0% 100%  0%  0% ;
+}
+.corner_circle#circle_04{
+    position: absolute;
+    bottom: 0;
+    border-radius: 0% 100%  0%  0% ;
+}
+
+.mid_circle#circle_05{
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: calc(-16vw/2);
+    margin: auto;
+}
+
+.mid_circle#circle_06{
+    position: absolute;
+    left: 0;
+    right: 0;
+    bottom: calc(-16vw/2);
+    margin: auto;
+}
