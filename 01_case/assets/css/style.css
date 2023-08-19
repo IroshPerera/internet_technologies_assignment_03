@@ -115,11 +115,7 @@ section > .main>div>div{
     bottom: 0;
     border-radius: 0% 100%  0%  0% ;
 }
-.corner_circle#circle_04{
-    position: absolute;
-    bottom: 0;
-    border-radius: 0% 100%  0%  0% ;
-}
+
 
 .mid_circle#circle_05{
     position: absolute;
